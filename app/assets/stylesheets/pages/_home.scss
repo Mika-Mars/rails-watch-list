@@ -1,0 +1,28 @@
+// Specific CSS for your home-page
+span {
+  color: red;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  opacity: 0.6;
+  &:hover {
+    color: red;
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px, 1px, 1px, green;
+}
+
+img {
+  width: 200px;
+}
